@@ -39,7 +39,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('assets/kolam_pattern.png');
+    background-image: url('kolam.png');
     background-repeat: repeat;
     background-size: 300px;
     opacity: 0.15;
