@@ -42,7 +42,8 @@ body {
     background-image: url('kolam.png');
     background-repeat: repeat;
     background-size: 300px;
-    opacity: 0.15;
+    opacity: 0.55;
+    mix-blend-mode: multiply;
     z-index: -1;
     pointer-events: none;
 }
@@ -170,11 +171,12 @@ h1, h2, h3 {
 .hero-decor-top img {
     width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 350px;
     object-fit: cover;
-    object-position: top;
-    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    object-position: center top;
+    mix-blend-mode: multiply;
+    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
 }
 
 .hero-content {
