@@ -32,19 +32,11 @@ animateElements.forEach(el => {
 // RSVP Form Submit Logic
 document.getElementById('rsvpForm').addEventListener('submit', (e) => {
     e.preventDefault();
-    const btn = e.target.querySelector('button');
-    const originalText = btn.innerText;
+    const rsvpBox = document.querySelector('.rsvp-box');
     
-    // Simulating form submission
-    btn.innerText = "Confirmed!";
-    btn.style.backgroundColor = "#50C878";
-    btn.style.color = "white";
-    
-    // Reset form after 3 seconds
-    setTimeout(() => {
-        e.target.reset();
-        btn.innerText = originalText;
-        btn.style.backgroundColor = "";
-        btn.style.color = "";
-    }, 3000);
+    // Replace the form with a success message
+    rsvpBox.innerHTML = `
+        <h2 class="section-title light-title" style="margin-bottom: 1rem;">Confirmed!</h2>
+        <p class="rsvp-text" style="font-size: 1.5rem; color: #F3E5AB;">Thank you for your reservation. We look forward to celebrating with you!</p>
+    `;
 });

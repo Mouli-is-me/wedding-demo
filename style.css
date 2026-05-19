@@ -288,6 +288,14 @@ h1, h2, h3 {
     background-color: rgba(212, 175, 55, 0.5);
 }
 
+.map-container {
+    margin-top: 3rem;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    border: 2px solid var(--gold);
+}
+
 /* Timeline Section (CRIMSON) */
 .timeline {
     background-color: var(--crimson);

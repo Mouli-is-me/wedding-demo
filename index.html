@@ -20,7 +20,7 @@
             <li><a href="#home">Welcome</a></li>
             <li><a href="#details">Details</a></li>
             <li><a href="#timeline">Timeline</a></li>
-            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#reservation">Reservation</a></li>
         </ul>
     </nav>
 
@@ -58,6 +58,17 @@
                     <p class="highlight-text">Sri Vaidhyanatha Palace</p>
                     <p>Coimbatore, Tamil Nadu</p>
                 </div>
+            </div>
+
+            <div class="map-container" data-aos="fade-up">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Sri%20Vaidhyanatha%20Palace,%20Coimbatore&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
             </div>
         </div>
     </section>
@@ -97,14 +108,15 @@
         </div>
     </section>
 
-    <section id="rsvp" class="section rsvp">
+    <section id="reservation" class="section rsvp">
         <div class="container">
             <div class="rsvp-box" data-aos="zoom-in">
-                <h2 class="section-title light-title">RSVP</h2>
+                <h2 class="section-title light-title">Reservation</h2>
                 <p class="rsvp-text">Please let us know if you can make it to our special day.</p>
                 <form class="rsvp-form" id="rsvpForm">
                     <input type="text" placeholder="Full Name" required>
                     <input type="email" placeholder="Email Address">
+                    <input type="text" placeholder="Relation's Name (e.g., Uncle, Friend)">
                     <select required>
                         <option value="" disabled selected>Number of Guests</option>
                         <option value="1">1</option>
@@ -112,7 +124,7 @@
                         <option value="3">3</option>
                         <option value="4">4+</option>
                     </select>
-                    <button type="submit" class="btn-primary">Confirm Attendance</button>
+                    <button type="submit" class="btn-primary">Confirm Reservation</button>
                 </form>
             </div>
         </div>
