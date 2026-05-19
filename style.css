@@ -468,6 +468,28 @@ h1, h2, h3 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
+/* Compliments Section */
+.compliments {
+    padding: 5rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.compliments h3 {
+    font-family: var(--font-heading);
+    color: var(--crimson);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.compliments p {
+    font-size: 1.4rem;
+    line-height: 2;
+    color: var(--emerald-dark);
+    font-weight: 600;
+}
+
 /* Footer */
 .footer {
     background-color: #1a0006; /* Very dark crimson */
