@@ -9,9 +9,9 @@
     --emerald-dark: #054a3f;
     --text-dark: #2C2C2C;
     
-    --font-heading: 'Cinzel Decorative', serif;
-    --font-body: 'Cormorant Garamond', serif;
-    --font-accent: 'Great Vibes', cursive;
+    --font-heading: 'Cinzel Decorative', 'Tiro Tamil', serif;
+    --font-body: 'Cormorant Garamond', 'Tiro Tamil', serif;
+    --font-accent: 'Great Vibes', 'Tiro Tamil', cursive;
 }
 
 * {

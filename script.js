@@ -36,7 +36,7 @@ document.getElementById('rsvpForm').addEventListener('submit', (e) => {
     
     // Replace the form with a success message
     rsvpBox.innerHTML = `
-        <h2 class="section-title light-title" style="margin-bottom: 1rem;">Confirmed!</h2>
-        <p class="rsvp-text" style="font-size: 1.5rem; color: #F3E5AB;">Thank you for your reservation. We look forward to celebrating with you!</p>
+        <h2 class="section-title light-title" style="margin-bottom: 1rem;">உறுதி செய்யப்பட்டது!</h2>
+        <p class="rsvp-text" style="font-size: 1.5rem; color: #F3E5AB;">தங்கள் வருகை பதிவிற்கு நன்றி. விழாவில் தங்களை காண ஆவலுடன் காத்திருக்கிறோம்!</p>
     `;
 });
